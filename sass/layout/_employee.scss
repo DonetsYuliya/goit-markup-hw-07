@@ -1,4 +1,4 @@
-.employees {
+.employee {
     background-color: var(--second-background);
     padding-top: 94px;
     padding-bottom: 94px;
@@ -7,22 +7,19 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-
     text-align: center;
     letter-spacing: 0.03em;
 }
 .job-title {
     font-size: 16px;
     line-height: 1.19;
-
     text-align: center;
     letter-spacing: 0.03em;
-
     color: var(--text-color);
     margin-top: 10px;
     margin-bottom: 16px;
 }
-.employees-list {
+.employee-list {
     display: flex;
     margin-top: 50px;
 }

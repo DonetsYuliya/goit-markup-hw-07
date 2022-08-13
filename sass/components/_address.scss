@@ -1,19 +1,24 @@
-.address-list {
+.address__list {
     font-style: normal;
     margin-top: 20px;
 }
-.address-item:not(:first-child) {
+.address__item:not(:first-child) {
     margin-top: 9px;
 }
-.address-link {
+.address__link {
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--main-background);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @:hover, @:focus {
+        color: var(--brand-color);
+    }
 }
-.address-link:hover,
-.address-link:focus {
-    color: var(--brand-color);
+.address__link_address {
+    color: var(--main-background);
+}
+.address__link_tel_mail {
+    color: rgba(255, 255, 255, 0.6);
 }

@@ -13,12 +13,14 @@
     display: flex;
     margin-top: 50px;
 }
-.prof-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 .prof-item {
     position: relative;
     display: block;
+
+    @:not (:last-child) {
+        margin-right: 30px;
+    }
 }
 .prof-label {
     font-weight: 700;

@@ -1,6 +1,8 @@
+.navigation {
+    margin-left: 93px;
+}
 .menu {
     display: flex;
-    margin-left: 93px;
 }
 .menu__item:not(:last-child) {
     margin-right: 50px;

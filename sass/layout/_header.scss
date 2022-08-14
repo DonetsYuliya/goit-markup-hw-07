@@ -6,6 +6,25 @@
     display: flex;
 }
 
+.header-contact-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__header-contact-list {
+    margin-left: 305px;
+}
+
+.header-contact-list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @:not (:first-child) {
+        margin-left: 30px;
+    }
+}
+
 .header-contact-list__link {
     display: flex;
     justify-content: center;
@@ -22,21 +41,6 @@
 
     @:hover, @:focus {
         color: var(--brand-color);
-    }
-}
-.header-contact-list {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 305px;
-}
-
-.header-contact-list__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    @:not (:first-child) {
-        margin-left: 30px;
     }
 }
 

@@ -514,7 +514,7 @@ img {
     background-size: cover;
 }
 
-.title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -524,7 +524,7 @@ img {
     color: var(--main-background);
 }
 
-.hero-container {
+.hero__container {
     display: flex;
     width: 696px;
     flex-wrap: wrap;

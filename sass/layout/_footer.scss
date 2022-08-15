@@ -37,7 +37,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    @:focus, @:hover {
+    &:focus,
+    &:hover {
         outline: none;
         border-color: var(--brand-color);
     }

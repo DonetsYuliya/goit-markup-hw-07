@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
 
-    @:not (:first-child) {
+    &:not (:first-child) {
         margin-left: 30px;
     }
 }
@@ -39,7 +39,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    @:hover, @:focus {
+    &:hover,
+    &:focus {
         color: var(--brand-color);
     }
 }
@@ -52,7 +53,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .header-contact-list__link:hover @, .header-contact-list__link:focus @ {
+    .header-contact-list__link:hover &,
+    .header-contact-list__link:focus & {
         fill: var(--brand-color);
     }
 }

@@ -13,7 +13,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    @:hover, @:focus {
+    &:hover,
+    &:focus {
         background-color: var(--modal-btn-hov-foc);
     }
 }

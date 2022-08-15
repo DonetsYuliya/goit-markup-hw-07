@@ -19,7 +19,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    @:hover, @:focus {
+    &:hover,
+    &:focus {
         border-color: var(--brand-color);
     }
 }
@@ -29,7 +30,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .client-link:hover @, .client-link:focus @ {
+    .client-link:hover &,
+    .client-link:focus & {
         fill: var(--brand-color);
     }
 }

@@ -18,7 +18,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    @:hover, @:focus {
+    &:hover,
+    &:focus {
         color: var(--brand-color);
     }
 }
@@ -27,7 +28,7 @@
     color: var(--brand-color);
     position: relative;
 
-    @::after {
+    &::after {
         position: absolute;
         bottom: 0;
         left: 0;
